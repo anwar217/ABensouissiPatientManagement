@@ -1,8 +1,10 @@
 class Patient{
     constructor() {
         this.patient = [];
+        
     }
 
+   
     list() {
         return [...this.patient];
     }
